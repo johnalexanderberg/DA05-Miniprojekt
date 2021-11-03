@@ -53,6 +53,7 @@ namespace DA05_Miniprojekt
             }
             catch 
             {
+                Console.WriteLine();
                 Console.WriteLine("Username not available. Please try another.");
                 Console.WriteLine();
                 CreateAccount();
@@ -94,7 +95,7 @@ namespace DA05_Miniprojekt
             {
                 Console.WriteLine();
                 Console.WriteLine("Incorrect password.");
-                StartBulletin();
+                Main();
             }
         }
 
